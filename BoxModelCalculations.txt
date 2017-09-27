@@ -1,0 +1,63 @@
+LAB - Calculation Assignment
+
+
+•Total height =  212px
+
+•Total width = 462px
+
+•Browser calculated height = 172px
+
+•Browser calculated width = 422px
+
+
+_________________________________________________________________________________________________________
+
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+
+For this object, calculate:
+
+•Total height
+
+margin-top + border-top + padding-top + (height of the content)+ padding-bottom + border-bottom + margin-bottom 
+
+20+1+10+150+10+1+20 = 212px
+
+
+•Total width
+
+margin-left + border-left + padding-left + (width of the content)+ padding-right + border-right + margin-right
+
+20+1+10+400+10+1+20 = 462px
+
+
+•Browser calculated height
+
+border-top + padding-top + (height of the content)+ padding-bottom + border-bottom 
+
+1+10+150+10+1 = 172px
+
+
+•Browser calculated width
+
+border-top + padding-top + (width of the content)+ padding-bottom + border-bottom 
+
+1+10+400+10+1 = 422px
+
+
+Save your answers in a file named BoxModelCalculations.txt and be sure to show your work as to how you arrived at the answers.
+
+
+Add this file to your local repository and check it into your GitHub repository.
